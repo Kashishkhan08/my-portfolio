@@ -1,6 +1,6 @@
 .head{
     position: fixed;
-    z-index: 2;
+    z-index: 100;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -24,7 +24,12 @@ body{
 }
 .page1{
     margin-top: 100px;
-   
+   position:absolute;
+    left: 0px;
+    right: 0px;
+   width: 100%;
+   z-index: 10;
+   top:100px;
     height: 800px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -35,7 +40,7 @@ body{
     font-size: 60px;
     display: inline-block;
     width: 500px;
-
+position:relative;
     padding-left: 100px;
     margin-bottom: 0px;
 }
@@ -57,7 +62,10 @@ body{
     margin-top: -100px;
 }
 .page2{
-    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 900px;
     height: 900px;
     padding-top: 0px;
     margin-top: 0px;
@@ -113,8 +121,12 @@ padding-top: 10px;
 background-color: rgb(240, 197, 6);
 }
 .page3{
-    
-    height: 900px;
+    position: absolute;
+    height: 800px;
+    top: 1800px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
     padding-top: 0px;
     margin-top: 0px;
     background: linear-gradient(to bottom,rgb(20, 20, 20),rgb(157, 69, 235));
@@ -134,6 +146,7 @@ padding-top: 0px;
 text-align: center;
 }
 .links{
+    position:relative;
 display: grid;
 grid-template-columns: 200px 200px 200px 200px 200px;
 margin-top: 200px;
@@ -152,5 +165,6 @@ margin-left: 400px;
     height: 3px;
     background-color: white;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 100px;
+    margin-bottom:10px;
 }
