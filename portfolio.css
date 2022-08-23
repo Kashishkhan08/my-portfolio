@@ -83,8 +83,8 @@ body{
     padding-bottom: 80px;
 }
 .box{
-    display: grid;;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
     column-gap: 20px;
 }
 
