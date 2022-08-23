@@ -85,7 +85,7 @@ body{
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ; 
-    column-gap: 20px;
+    column-gap: 50px;
 }
 
 .proj1{
